@@ -1,0 +1,12 @@
+Objeto literal (JS viejito):
+Es aquel elemento que se define con la notación JSON. Es parte fundamental del paradigma orientado a objetos en JavaScript.
+
+JavaScript es un lenguaje TRANSPILADO.
+
+COMPILADO: Se cargan los paquetes, se lee el código, se compila, se traduce a lenguaje máquina, se ejecuta. Lenguajes como Java, C, etc.
+
+TRANSPILADO: Mientras se ejecuta se compila, es mucho más rápido. Leguajes como JavaScript.
+
+Lenguaje altamente tipado: Aquel lenguaje donde, una vez declarada una variable de un cierto tipo, esta no puede cambiar de tipo.
+
+Lenguaje levemente tipado: regularmente son aquellos lenguajes donde todo es un objeto, no es posible (o no en todos los casos), definir el tipo de una variable.
