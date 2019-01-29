@@ -1,3 +1,4 @@
+Headers -> Son elementos que vienen junto con la respuesta a una petición GET HTTP y que proporcionan información adicional.
 Links que te devuelven un HTML se les llama URL
 A los links que te devuelven JSON se les llama "endpoints"
 GET es para pedir datos al servidor
@@ -10,3 +11,7 @@ Todos los status codes 400, el cliente está haciendo mal la petición
 Todos los status codes 500, el backend se rompió
 
 Todo esto es por conveción, pero no siempre se respetan los códigos de status code. Es buena práctica respetarlos.
+
+require, siempre va a buscar dentro de node_modules
+
+Editor de JSONs muy útil: https://jsoneditoronline.org/
