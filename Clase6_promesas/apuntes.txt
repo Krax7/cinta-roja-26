@@ -1,0 +1,2 @@
+Promise: Es básicamente una función que devuelve 2 cosas. Un resultado, en caso de que el servidor haya respondido
+de forma favorable, o una respuesta de rechazo, donde se notifica porqué se rechazó o falló la petición.
