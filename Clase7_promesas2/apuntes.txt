@@ -1,0 +1,4 @@
+Las promesas nacen como una forma de evitar callback hell.
+Puede generarse un callback hell al tener varias peticiones anidadas.
+Cuando se utiliza el operador ternario, es importante no terminar las líneas con ';' 
+dentro de la condicional
