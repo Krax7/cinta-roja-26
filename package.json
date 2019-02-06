@@ -1,0 +1,29 @@
+{
+  "name": "cintaroja",
+  "version": "1.0.0",
+  "description": "Cinta Roja 26 Repositorio",
+  "main": "server.js",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krax7/cinta-roja-26.git"
+  },
+  "author": "Omar Hoyos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krax7/cinta-roja-26/issues"
+  },
+  "homepage": "https://github.com/Krax7/cinta-roja-26#readme"
+}
