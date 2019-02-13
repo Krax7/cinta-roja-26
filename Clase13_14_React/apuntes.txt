@@ -1,0 +1,52 @@
+React utiliza el DOM pero también virtualiza el DOM para manejar los elementos del mismo en componentes por separado
+Esto permite poner algunos elementos estáticos y otros no.
+Cuando se modifica algo en el código, se pasa al Virtual DOM, se compara con el DOM real, y lo que sea diferente, 
+es lo que se pasa al DOM real. De esta manera, ya no se hace render del DOM completo cada vez.
+
+JSX:
+90% HTML, pero tiene diferencias, como que en lugar de class, se usa className.
+
+Single responsability: Idealmente, una función hace una cosa.
+
+Estructura de React:
+- index.html --> HTML básico para servir de plantilla para el sitio.
+- index.js --> El papá de todo.
+- App.test.js --> Demo de React.
+
+React.render(¿Qué va a renderear?, ¿Dónde lo va a renderear?).
+React hace SPA (Single Page Application)
+En React es necesario importar las imágenes para poder utilizarlas.
+Las clases siempre empiezan el mayúsculas.
+index.html es el único HTML que va a existir en la página. El resto de código HTML se añade como JSX en
+el  index.js.
+
+render() {
+    return (
+        Código JSX. Es importante hacer notar que dentro
+    )
+}
+
+Cada que creemos un componente, va a ir esto como la primera línea:
+import React, { Component } from 'react';
+
+Ciclo de vida: Secuencia de funciones que se ejecutan siempre en el mismo orden. Son funciones 
+ya predefinidas, es decir, no cualquier conjunto de funciones.
+
+El ciclo de vida es por componente.
+
+Render se manda a llamar cada que:
+    - Se mande a llamar cada que se llama a la función render().
+    - Cada que se mande a llamar al compoenente.
+    - Cada que cambia el estado del componente.
+
+En componentDidMount van las peticiones.
+    - Si hay un cuello de botella, render pinta algo y luego se hacen las peticiones para, ahora sí,
+    modificar el estado.
+
+Los comentarios en React van "envueltos" en corchetes.
+
+Buena práctica: poner todos los componentes en una carpeta llamada components.
+
+Buena práctica: Usar this.setSta
+
+Nota: buscar las diferencias entre export class y export default class.
