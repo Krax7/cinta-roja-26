@@ -7,17 +7,26 @@ import { Saludo } from './Saludo';
 import { Despedida } from './Despedida';
 import { Contador } from './Contador';
 import { Home } from './Home';
+import { Formulario } from './Formulario';
+import { BrowserRouter,Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Home/>
-        {/* <h1>Saludos desde React</h1>
-        <Saludo mensaje="Que onda"/>
-        <Despedida mensajito="Hasta luego"/>
-        <Contador /> */}
-      </div>
+      // <div className="App">
+      //   <Home/>
+      //   {/* <h1>Saludos desde React</h1>
+      //   <Saludo mensaje="Que onda"/>
+      //   <Despedida mensajito="Hasta luego"/>
+      //   <Contador /> */}
+      // </div>
+      <BrowserRouter>
+        <main> 
+          {/* Es una etiqueta main cualquiera. Podría haber sido un div. */}
+          <Route exact path = '/' component={Home}/>
+          <Route exact path = '/form' component={Formulario}/>
+        </main>
+      </BrowserRouter>
     )
   }
 }

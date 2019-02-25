@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card } from './Card';
 import axios from 'axios';
 import { Navbar } from './Navbar';
+import { Formulario } from './Formulario';
 
 export class Home extends Component {
     constructor(props) {
@@ -39,9 +40,10 @@ export class Home extends Component {
         return(
             <div className="App">
                 <Navbar/>
-                <div className="row">
+                <Formulario/>
+                {/* <div className="row">
                     { this.renderCard() }
-                </div>
+                </div> */}
             </div>
         );
     }
